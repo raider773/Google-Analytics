@@ -1,0 +1,23 @@
+Los datos
+El subset con el que vas a trabajar está compuesto por 6 meses de información de los siguientes campos:
+fullVisitorId		STRING		An identifier for each visitor (user).
+visitNumber		INTEGER	The session number for this user. If this is the first session, then this is set to 1.
+date			STRING		The date of the session in YYYYMMDD format.
+bounces		INTEGER	For a bounced session (a session without interactions from the user), the value is 1, otherwise it is null.
+hits			INTEGER	Total number of hits (actions taken by the user, either visiting pages or clicking buttons) within the session.
+pageviews		INTEGER	Total number of pageviews (pages visited by the user) within the session.
+timeOnSite		INTEGER	Total time of the session expressed in seconds. (nulls means no time spent)
+transactionRevenue	INTEGER	Total transaction revenue
+transactions		INTEGER	Total number of ecommerce transactions within the session.
+source			STRING		Could be the name of the search engine, the referring hostname, or a value of the utm_source URL parameter.
+channelGrouping	STRING		Group sources into channels according to general rules.
+browser		STRING		The browser used (e.g., "Chrome" or "Firefox").
+deviceCategory	STRING		The type of device (Mobile, Tablet, Desktop).
+country		STRING		The country of the session, based on IP address.
+city			STRING		The city, based on IP addresses or Geographical IDs.
+
+
+
+
+
+
