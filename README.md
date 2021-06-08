@@ -12,6 +12,22 @@ Then i did some time series prediction on the revenue.\
 Lastly i used flask to implement both the time series model as well as the classification model, giving a full report.
 
 
-![image](https://user-images.githubusercontent.com/70241561/121109183-7043e980-c7e1-11eb-8e62-e6bf76fa2fb0.png)
+
+<img align="left"  width="300" height="400" src="https://user-images.githubusercontent.com/70241561/121109183-7043e980-c7e1-11eb-8e62-e6bf76fa2fb0.png"> 
 
 
+
+
+The percentage of nulls was great. I had to drop a lot of columns due to nulls or not giving any information.
+
+
+I also filled lots of nulls based on other columns, as well as using regex to get information from the description: 
+
+<p>&nbsp;</p> 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
