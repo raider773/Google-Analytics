@@ -15,6 +15,7 @@ Lastly i used flask to implement both the time series model as well as the class
 
 <img align="left"  width="200" height="200" src="https://user-images.githubusercontent.com/70241561/121459127-0f531780-c981-11eb-8f13-703b65579d6a.pn"> 
 
+![image](https://user-images.githubusercontent.com/70241561/121459170-23971480-c981-11eb-8d21-0a9a20ba9b36.png)
 
 
 
