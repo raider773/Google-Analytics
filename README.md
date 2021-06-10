@@ -98,6 +98,17 @@ prediction with prophet
 
 Components for the time series. We can see the linear trend. 
 
+<p>&nbsp;</p>
+
+Lastly i used flask to implement both the classificatino model and the prophet model.
+
+![image](https://user-images.githubusercontent.com/70241561/121460474-5a6e2a00-c983-11eb-8752-d010cdf9d5ea.png)
+
+
+
+![image](https://user-images.githubusercontent.com/70241561/121460489-62c66500-c983-11eb-9c43-704faf210dd1.png)
+
+Predicted and example for transaction, as well and predicting the revenue in then next 365 days.
 
 
 
