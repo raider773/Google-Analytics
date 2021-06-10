@@ -76,3 +76,28 @@ A chart with metrics based on threshold
 
 set threshold and watch how matrix confusion changed.
 
+
+<p>&nbsp;</p>
+
+Next i did some time series prediction. I tried a lienar trend with and without months, as well as performed an adfuller test to see the p-values. Stationality was pretty static, and months got high p-values so they didn't add anything to the prediction. I used prophet and it performed ok, so i selected that model and save it for using it with flask.
+
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121460251-06634580-c983-11eb-8978-00cecae3926e.png)
+
+Stationality
+
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121460281-15e28e80-c983-11eb-9b34-c89f83521e7e.png)
+
+prediction with prophet
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121460306-1e3ac980-c983-11eb-947d-1ba2ff6999ea.png)
+
+Components for the time series. We can see the linear trend. 
+
+
+
+
