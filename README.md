@@ -5,7 +5,8 @@ Clustering, Time Series and Classification on a sample from a Google Analytics D
 
 
 This Project is based on a sample of a dataset from a google analytics gathering. The objectives of this project were multiple.\
-First i analysed the data and make some charts that better represent this daatset.\
+First i analysed the data and make some charts that better represent this dataset.\
+In the features.txt file there's a description of the features.\
 Then i did some clsutering to group clients and analyse the groups a bit.\
 After that i did some classification. I tried to predict whether the client would or would not make a transaction.\
 Then i did some time series prediction on the revenue.\
@@ -26,10 +27,37 @@ The percentage of nulls was great. I had to drop a lot of columns due to nulls o
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 
 
 ![image](https://user-images.githubusercontent.com/70241561/121459495-c059b200-c981-11eb-8704-b23089161d2b.png)
 
+We can see chrome and desktop are the most used.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+![image](https://user-images.githubusercontent.com/70241561/121459547-dff0da80-c981-11eb-9f9f-b9bb43baa5b3.png)
+
+The PCA shows classes are not so well separate.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121459664-10d10f80-c982-11eb-8c86-685a7cf867a6.png)
+
+After doing some feature importance with a random forest and an extra trees, we can see time on site, hits and page views are what most influence a prediction for a transaction.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+For classification i selected a logistic regression model, since it ws the one that performed well.
+
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121459856-60174000-c982-11eb-82b3-cac4e0ab3020.png)
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
