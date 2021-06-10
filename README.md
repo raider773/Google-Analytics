@@ -29,3 +29,7 @@ The percentage of nulls was great. I had to drop a lot of columns due to nulls o
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
+![image](https://user-images.githubusercontent.com/70241561/121459495-c059b200-c981-11eb-8704-b23089161d2b.png)
+
