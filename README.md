@@ -55,9 +55,24 @@ After doing some feature importance with a random forest and an extra trees, we 
 
 For classification i selected a logistic regression model, since it ws the one that performed well.
 
-<p>&nbsp;</p>
 
 ![image](https://user-images.githubusercontent.com/70241561/121459856-60174000-c982-11eb-82b3-cac4e0ab3020.png)
 
 <p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121459914-7ae9b480-c982-11eb-8c22-ac29fedec892.png)
+
+Auc Curve was good, separation of data was ok.
+
 <p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121459942-8c32c100-c982-11eb-8908-9273c84a5fd1.png)
+
+A chart with metrics based on threshold
+
+<p>&nbsp;</p>
+
+![image](https://user-images.githubusercontent.com/70241561/121460007-9f459100-c982-11eb-9f11-c6d1b1b825de.png)
+
+set threshold and watch how matrix confusion changed.
+
