@@ -13,7 +13,7 @@ Lastly i used flask to implement both the time series model as well as the class
 
 
 
-<img align="left"  width="300" height="400" src="https://user-images.githubusercontent.com/70241561/121109183-7043e980-c7e1-11eb-8e62-e6bf76fa2fb0.png"> 
+<img align="left"  width="200" height="200" src="https://user-images.githubusercontent.com/70241561/121459127-0f531780-c981-11eb-8f13-703b65579d6a.pn"> 
 
 
 
